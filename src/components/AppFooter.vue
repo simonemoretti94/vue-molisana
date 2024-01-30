@@ -49,7 +49,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
 
-    & ul.list-unstyled {
+    & .list-unstyled {
         & a {
             text-decoration: none;
             color: var(--mol-dark);

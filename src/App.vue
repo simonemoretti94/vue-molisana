@@ -18,7 +18,6 @@ export default {
   }
 }
 
-
 </script>
 
 <template>
@@ -28,7 +27,3 @@ export default {
 
   <AppFooter></AppFooter>
 </template>
-
-
-
-<style scoped></style>
