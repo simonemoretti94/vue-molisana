@@ -96,7 +96,7 @@ export default {
             <div class="container">
                 <div class="row d-flex flex-row flex-wrap">
                     <div class="col-3" v-for="product in products">
-                        <ProductCard :product="product" :src="products.src" :text="products.titolo"></ProductCard>
+                        <ProductCard :product="product" :src="product.src" :text="product.titolo"></ProductCard>
                     </div>
                 </div>
             </div>

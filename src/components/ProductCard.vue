@@ -3,9 +3,9 @@
 export default {
     name: 'ProductCard',
     props: {
-        product: Object,
-        src: String,
-        text: String,
+        product: Object, //object passed trough binding in appmain ":product" attribute
+        src: String, //string passed trough binding in appmain ":src" attribute
+        text: String, //string passed trough binding in appmain ":text" attribute
     }
 }
 
@@ -14,8 +14,8 @@ export default {
 
 <template>
     <div class="product card my-4 mx-4">
-        <img :src="product.src" alt="">
-        <h6 class="text-primary text-center my-1">{{ product.titolo }}</h6>
+        <img :src="src" alt="">
+        <h6 class="text-primary text-center my-1">{{ text }}</h6>
     </div>
 </template>
 
